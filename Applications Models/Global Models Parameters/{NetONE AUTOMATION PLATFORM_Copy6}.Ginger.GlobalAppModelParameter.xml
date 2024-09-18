@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="77f7f7b0-d055-4370-bc1e-7f10f55b0670" ItemType="GlobalAppModelParameter" CreatedBy="SHOUJITM" Created="202409051413" GingerVersion="24.4.1.0" Version="1" LastUpdateBy="SHOUJITM" LastUpdate="202409051413" />
+<GlobalAppModelParameter Guid="77f7f7b0-d055-4370-bc1e-7f10f55b0670" PlaceHolder="{NetONE AUTOMATION PLATFORM_Copy6}">
+<OptionalValuesList>
+<OptionalValue Guid="9250efa7-90ab-46ae-b600-31d7328aab01" IsDefault="True" Value="/tip/v1" />
+</OptionalValuesList>
+</GlobalAppModelParameter></GingerRepositoryItem>

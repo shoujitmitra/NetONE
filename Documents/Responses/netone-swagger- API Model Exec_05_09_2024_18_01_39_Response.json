@@ -1,0 +1,11 @@
+HTTP/1.1 UNKNOWN
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 05 Sep 2024 22:01:39 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 1686
+
+{
+  "logs": "[\"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Generic Validation API Start\", \"it is coming here\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] downloaded testcases from git failed\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] DUT Nodes [['UE1']]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Starting Test-Case [DT-1]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] DUT[UE1] exec_steps[[{'cmdLine': {'command': 'APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type SpeedTest', 'expectedResult': [{'matchValue': {'key': 'average_download_speed', 'minValue': '60'}}, {'matchValue': {'key': 'average_upload_speed', 'minValue': '60'}}]}}]]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Executing Command [APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type SpeedTest]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Expected Output [[{'matchValue': {'key': 'average_download_speed', 'minValue': '60'}}, {'matchValue': {'key': 'average_upload_speed', 'minValue': '60'}}]]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Command Output[['None']]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] check_type[matchValue params[{'key': 'average_download_speed', 'minValue': '60'}]\", \"INFO Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] check_type[matchValue params[{'key': 'average_upload_speed', 'minValue': '60'}]\", \"ERROR Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Functional Validation Failed\", \"ERROR Exec_Id[7d9f3ccb-2136-480f-a00a-50645bf6b8db] Generic Validation API Failed\"]",
+  "id": "7d9f3ccb-2136-480f-a00a-50645bf6b8db"
+}

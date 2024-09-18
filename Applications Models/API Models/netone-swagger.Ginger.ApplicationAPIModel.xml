@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="724ddbf4-4886-4a25-8707-8e40b2e32951" ItemType="ApplicationAPIModel" CreatedBy="SHOUJITM" Created="202408271431" GingerVersion="24.1.0.0" Version="37" LastUpdateBy="SHOUJITM" LastUpdate="202408291356" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="TextPlain" CookieMode="None" EndpointURL="http://10.53.213.68:9091/tip/v1/GenericValidationAPI/genericapi/" Guid="724ddbf4-4886-4a25-8707-8e40b2e32951" Name="netone-swagger" NetworkCredentials="Default" ParentGuid="00000000-0000-0000-0000-000000000000" ReqHttpVersion="HTTPV10" RequestBody="testcase=filename" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b1f57cbb-de66-4289-a3bc-476ad799f184">
+<APIModelBodyKeyValueHeaders>
+<APIModelBodyKeyValue Guid="ab3a677a-8c7e-4c25-8e46-17eebf5a5dbf" Param="testcase" ParentGuid="00000000-0000-0000-0000-000000000000" Value="DT-1.yaml" ValueType="Text" />
+</APIModelBodyKeyValueHeaders>
+
+<AppModelParameters>
+<AppModelParameter Guid="aaf920c2-94cd-4534-b2b8-e9b6d916abf8" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="testcase">
+<OptionalValuesList>
+<OptionalValue Guid="94648919-af7b-4e59-a6a9-b2211dce09a6" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="testcase" />
+</OptionalValuesList>
+</AppModelParameter>
+<AppModelParameter Guid="c9f0e324-62fe-4f19-9999-eb61ce0dc4a1" ParentGuid="00000000-0000-0000-0000-000000000000" PlaceHolder="filename">
+<OptionalValuesList>
+<OptionalValue Guid="259f83cb-7bd7-4fcd-8a33-be20d6c4374e" IsDefault="True" ParentGuid="00000000-0000-0000-0000-000000000000" Value="DT-1.yaml" />
+<OptionalValue Guid="45e48983-eeb0-4af0-a0f7-3432f107a9b5" ParentGuid="00000000-0000-0000-0000-000000000000" Value="MultiVendorTestSuite.yaml" />
+</OptionalValuesList>
+</AppModelParameter>
+</AppModelParameters>
+
+<HttpHeaders>
+<APIModelKeyValue Guid="bad59a88-892d-434f-8671-1815c5715cd2" Param="accept" ParentGuid="00000000-0000-0000-0000-000000000000" Value="application/json" />
+<APIModelKeyValue Guid="ebdc2a01-003f-49ba-8ecd-b10540c81e75" Param="Content-Type" ParentGuid="00000000-0000-0000-0000-000000000000" Value="application/x-www-form-urlencoded" />
+</HttpHeaders>
+</ApplicationAPIModel></GingerRepositoryItem>

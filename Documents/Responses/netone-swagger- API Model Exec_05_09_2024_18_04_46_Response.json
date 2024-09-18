@@ -1,0 +1,11 @@
+HTTP/1.1 UNKNOWN
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 05 Sep 2024 22:04:46 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 2189
+
+{
+  "logs": "[\"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Generic Validation API Start\", \"it is coming here\", \"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] downloaded testcases from git failed\", \"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] DUT Nodes [['UE1']]\", \"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Starting Test-Case [PT-1]\", \"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] DUT[UE1] exec_steps[[{'cmdLine': {'command': 'APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type PingTest', 'expectedResult': [{'matchValue': {'key': 'Min', 'maxValue': '90'}}, {'matchValue': {'key': 'Avg', 'maxValue': '100'}}]}}]]\", \"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Executing Command [APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type PingTest]\", \"INFO Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Expected Output [[{'matchValue': {'key': 'Min', 'maxValue': '90'}}, {'matchValue': {'key': 'Avg', 'maxValue': '100'}}]]\", \"ERROR Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Exception[Message: \\nStacktrace:\\nNoSuchElementError: An element could not be located on the page using the given search parameters.\\n    at AndroidUiautomator2Driver.findElOrEls (C:\\\\Users\\\\SHOUJITM\\\\.appium\\\\node_modules\\\\appium-uiautomator2-driver\\\\node_modules\\\\appium-android-driver\\\\lib\\\\commands\\\\find.ts:86:11)\\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\\n    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\\\Users\\\\SHOUJITM\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\appium\\\\node_modules\\\\@appium\\\\base-driver\\\\lib\\\\basedriver\\\\commands\\\\find.ts:60:12)\\n    at AndroidUiautomator2Driver.findElement (C:\\\\Users\\\\SHOUJITM\\\\AppData\\\\Roaming\\\\npm\\\\node_modules\\\\appium\\\\node_modules\\\\@appium\\\\base-driver\\\\lib\\\\basedriver\\\\commands\\\\find.ts:75:12)]\", \"ERROR Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Functional Validation Failed\", \"ERROR Exec_Id[a8009917-39ca-4e9a-b337-43c372182cab] Generic Validation API Failed\"]",
+  "id": "a8009917-39ca-4e9a-b337-43c372182cab"
+}

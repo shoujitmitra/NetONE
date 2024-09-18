@@ -1,0 +1,1 @@
+{"Seq":5,"GUID":"24cf2cbd-a91d-4152-a437-b78f8569c224","ActivityName":"PT-1","Description":"Ping Test using Mobile Trace App","RunDescription":"","StartTimeStamp":"2024-09-05T22:01:39.3763396Z","EndTimeStamp":"2024-09-05T22:03:06.6283135Z","Elapsed":87250,"RunStatus":"Failed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

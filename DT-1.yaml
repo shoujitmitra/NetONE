@@ -1,0 +1,23 @@
+testCaseDescription: 'Speed Testing via Appium Adapter'
+testCaseId: 'DT-1'
+testPriority: 'P1'
+testCategory: 'Device Testing'
+testType: 'Functional'
+#Test call will be executed on nodes in topology as per nodeSelection
+nodeSelection:
+      #run for all UE defined in topology
+      - loop:
+          - '${ue_nodes_count},1'
+          #1 is reference for loop count1
+          - '${ue_node${count1}_name}'
+testExecutionSteps:
+   Samsung:
+       - cmdLine:
+           command: "APPIUM -appiumHost ${appium_host_DUT} -appiumPort ${appium_port_DUT} -application ${mobile_app_DUT} -test_type ${test_type_DUT}"
+           expectedResult:
+            - matchValue:
+                key: "average_download_speed"
+                minValue: "60"
+            - matchValue:
+                key: "average_upload_speed"
+                minValue: "60"

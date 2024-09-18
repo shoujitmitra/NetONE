@@ -1,0 +1,68 @@
+testCaseDescription: 'Create NE'
+testCaseId: 'USM-1'
+testPriority: 'P2'
+testCategory: 'Generic Validation'
+testType: 'GenericValidationAPI'
+#Test call will be executed on nodes in topology as per nodeSelection
+#Only USM nodes are part of this test case
+nodeSelection:
+      # Loop for all USM routers in topology
+      - loop:
+          - '${usm_nodes_count},1'
+          - '${usm_node${count1}_name}'
+      # Loop for all PE routers in topology
+      - loop:
+          - '${pe_nodes_count},1'
+          - '${pe_node${count1}_name}'
+      # Loop for all CE routers in topology
+      - loop:
+          - '${ce_nodes_count},1'
+          - '${ce_node${count1}_name}'
+      # Loop for all GW routers in topology
+      - loop:
+          - '${gw_nodes_count},1'
+          - '${gw_node${count1}_name}'
+# Expected result is hostname properly configured at USM node
+testExecutionSteps:
+   Samsung:
+       - cmdLine:
+           command: "REST  -operation post -data ${api_payload1_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_create_ne_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+       - cmdLine:
+           command: "REST -header ${api_header2_DUT} -operation post -data ${api_payload2_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_managed_objects_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+       - cmdLine:
+           command: "REST -operation post -data ${api_payload3_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_configuration_management_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+       - cmdLine:
+           command: "REST -operation post -data ${api_payload4_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_configure_du_DUT}/${ne_id_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+   Nokia:
+       - cmdLine:
+           command: "REST -operation post -data ${api_payload1_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_create_ne_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+       - cmdLine:
+           command: "REST -operation post -data ${api_payload2_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_managed_objects_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+       - cmdLine:
+           command: "REST -operation post -data ${api_payload3_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_configuration_management_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'
+       - cmdLine:
+           command: "REST -operation post -data ${api_payload4_DUT} -apiHost ${host_id_DUT} -apiPort ${api_port_DUT} -apiUrl ${api_url_configure_du_DUT}/${ne_id_DUT}"
+           expectedResult:
+             - present:
+                 - 'SUCCESS'

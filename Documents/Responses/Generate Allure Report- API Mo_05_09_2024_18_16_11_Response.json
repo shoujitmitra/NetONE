@@ -1,0 +1,8 @@
+HTTP/1.1 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 05 Sep 2024 22:16:11 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 48
+
+{"logs": "http://10.53.213.68:9093/index.html"}

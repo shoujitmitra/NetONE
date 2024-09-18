@@ -1,0 +1,11 @@
+HTTP/1.1 UNKNOWN
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 27 Aug 2024 16:34:57 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 481
+
+{
+  "logs": "[\"INFO Exec_Id[9588f6d0-6733-44bb-a242-3875a3d3d36a] Generic Validation API Start\", \"it is coming here\", \"INFO Exec_Id[9588f6d0-6733-44bb-a242-3875a3d3d36a] downloaded testcases from git failed\", \"ERROR Exec_Id[9588f6d0-6733-44bb-a242-3875a3d3d36a] Test Yaml [/opt/facebook/tip/setup/../..//tip/testCaseYaml/None] Not Present\", \"ERROR Exec_Id[9588f6d0-6733-44bb-a242-3875a3d3d36a] Generic Validation API Failed\"]",
+  "id": "9588f6d0-6733-44bb-a242-3875a3d3d36a"
+}

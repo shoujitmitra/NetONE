@@ -1,0 +1,7 @@
+POST http://10.53.213.68:9091/tip/v1/GenericValidationAPI/genericapi/ HTTP/1.0
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Content-Length: 19
+Host: 10.53.213.68:9091
+
+DT-1.yaml=DT-1.yaml

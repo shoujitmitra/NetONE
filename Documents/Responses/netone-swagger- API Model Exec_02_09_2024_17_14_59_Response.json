@@ -1,0 +1,11 @@
+HTTP/1.1 CREATED
+Server: nginx/1.18.0 (Ubuntu)
+Date: Mon, 02 Sep 2024 21:14:59 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 1640
+
+{
+  "logs": "[\"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] Generic Validation API Start\", \"it is coming here\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] downloaded testcases from git failed\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] DUT Nodes [['UE1']]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] Starting Test-Case [PT-1]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] DUT[UE1] exec_steps[[{'cmdLine': {'command': 'APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type PingTest', 'expectedResult': [{'matchValue': {'key': 'Min', 'minValue': '10'}}, {'matchValue': {'key': 'Max', 'minValue': '10'}}]}}]]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] Executing Command [APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type PingTest]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] Expected Output [[{'matchValue': {'key': 'Min', 'minValue': '10'}}, {'matchValue': {'key': 'Max', 'minValue': '10'}}]]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] Command Output[[\\\"{'Min': 48, 'Max': 206, 'Avg': 101, 'Packet loss': 0}\\\"]]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] check_type[matchValue params[{'key': 'Min', 'minValue': '10'}]\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] check_type[matchValue params[{'key': 'Max', 'minValue': '10'}]\", \"Test Case Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641]  Functional Validation Success\", \"INFO Exec_Id[a29754b3-26f9-43b1-bab7-5f9760536641] Generic Validation API Successful\"]",
+  "id": "a29754b3-26f9-43b1-bab7-5f9760536641"
+}

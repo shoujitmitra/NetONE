@@ -1,0 +1,11 @@
+HTTP/1.1 UNKNOWN
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 03 Sep 2024 18:35:29 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 1756
+
+{
+  "logs": "[\"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Generic Validation API Start\", \"it is coming here\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] downloaded testcases from git failed\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] DUT Nodes [['UE1', 'UE2']]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Starting Test-Case [PT-1]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] DUT[UE1] exec_steps[[{'cmdLine': {'command': 'APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type PingTest', 'expectedResult': [{'matchValue': {'key': 'Min', 'maxValue': '90'}}, {'matchValue': {'key': 'Avg', 'maxValue': '100'}}]}}]]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Executing Command [APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type PingTest]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Expected Output [[{'matchValue': {'key': 'Min', 'maxValue': '90'}}, {'matchValue': {'key': 'Avg', 'maxValue': '100'}}]]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Command Output[[\\\"{'Min': 51, 'Max': 192, 'Avg': 105, 'Packet loss': 0}\\\"]]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] check_type[matchValue params[{'key': 'Min', 'maxValue': '90'}]\", \"INFO Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] check_type[matchValue params[{'key': 'Avg', 'maxValue': '100'}]\", \"ERROR Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Exception[Unable To Update ENV Variable APPIUM -appiumHost 10.53.213.28 -appiumPort 4723 -application MobileTrace -test_type ${test_type1_UE2}]\", \"ERROR Exec_Id[fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e] Generic Validation API Failed\"]",
+  "id": "fe1c0225-eaa3-4d03-a8a9-b54ef5975c4e"
+}

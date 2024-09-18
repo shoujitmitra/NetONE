@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5827d69c-1ef3-42b3-b5d7-34145ae50306" ItemType="Agent" CreatedBy="SHOUJITM" Created="202408272013" GingerVersion="24.1.0.0" Version="4" LastUpdateBy="SHOUJITM" LastUpdate="202408291350" />
+<Agent Active="True" AgentType="Driver" DriverType="WebServices" Guid="5827d69c-1ef3-42b3-b5d7-34145ae50306" Name="NetONE" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="WebServices">
+<DriverConfiguration>
+<DriverConfigParam Description="Show Driver Window On Launch" Guid="4355ca7c-ffeb-46ba-9124-149f4cba7fbb" Parameter="ShowDriverWindowOnLaunch" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Save Request XML" Guid="d0ba0aeb-fc0e-4283-bd94-78580f252be4" Parameter="SaveRequestXML" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Save Response XML" Guid="6b5af8c4-cda8-4796-9625-37d6b8de4190" Parameter="SaveResponseXML" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Path to save XMLs" Guid="93626560-786c-4567-bead-1b81da616b33" Parameter="SavedXMLDirectoryPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="~\Documents" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI installation folder e.g. C:\Program Files\SmartBear\SoapUI-5.3.0 | SoapUI version supported - v5.0.0 and above" Guid="8e17028d-811b-495a-9d0f-298aabedda64" Parameter="SoapUIDirectoryPath" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Related only to SoapUI | Execution Output Folder Which will contain the respond" Guid="59f1eca7-9071-4d52-a4a8-c989da967f43" Parameter="SoapUIExecutionOutputsDirectoryPath" ParentGuid="00000000-0000-0000-0000-000000000000" Value="~\Documents\WebServices\SoapUI\ExecutionOutputs" />
+<DriverConfigParam Description="Related only to SoapUI | soapui-settings.xml file to use" Guid="ddb3ff40-f511-4af3-a71e-e3e9c4b541e5" Parameter="SoapUISettingFile" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Related only to SoapUI | soapui-settings.xml file's password" Guid="e61b3f7e-b14e-40bf-ba03-48ca1f1cfb41" Parameter="SoapUISettingFilePassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI-Project's password" Guid="98dae94d-bfd3-4e1e-b976-adbfe496b264" Parameter="SoapUIProjectPassword" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Related only to SoapUI | Run SoapUI Process as Admin" Guid="d00ae99c-4201-4413-9511-4ea75bed2601" Parameter="RunSoapUIProcessAsAdmin" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI Process Redirect Standard Error" Guid="bced7484-f042-4a85-90ec-969810a0146f" Parameter="SoapUIProcessRedirectStandardError" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI Process Redirect Standard Output" Guid="93926494-1106-4ea9-876a-88470cada88c" Parameter="SoapUIProcessRedirectStandardOutput" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI Process Use Shell Execute" Guid="54a0903e-5a58-40ec-adec-2562b7951c34" Parameter="SoapUIProcessUseShellExecute" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI Process Window Style Hidden" Guid="84127c3c-1c4e-45b2-97fa-7a63bd8ab8b2" Parameter="SoapUIProcessWindowStyle" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Related only to SoapUI | SoapUI Process Create No Window" Guid="c97c9fea-2934-4ffc-9480-e916fed49716" Parameter="SoapUIProcessCreateNoWindow" ParentGuid="00000000-0000-0000-0000-000000000000" Value="true" />
+<DriverConfigParam Description="Proxy Settings | Host:Port Example: [sub-domain.]example.com:8080" Guid="aa1d0311-d505-45f0-9a9f-2d4524f5b377" Parameter="WebServicesProxy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<DriverConfigParam Description="Use Proxy Server Settings | Set to true in order to use local Proxy Server settings, if set to true configured Agent 'Proxy Settings' will be avoided. " Guid="80e4c683-a920-498b-962d-48549d1dd382" Parameter="UseServerProxySettings" ParentGuid="00000000-0000-0000-0000-000000000000" Value="false" />
+<DriverConfigParam Description="Configure Tcp client endpoint" Guid="bf4c1645-7259-4dab-9ab4-dac9f328b9c6" Parameter="UseTcp" ParentGuid="00000000-0000-0000-0000-000000000000" Value="True" />
+<DriverConfigParam Description="Tcp client hostname" Guid="6387a333-96d6-4b57-9752-0187069fdce5" Parameter="TcpHostname" ParentGuid="00000000-0000-0000-0000-000000000000" Value="10.53.213.68" />
+<DriverConfigParam Description="Tcp client port" Guid="1cfdaaf8-226d-4a61-a2c8-f62fa898300c" Parameter="TcpPort" ParentGuid="00000000-0000-0000-0000-000000000000" Value="9091" />
+<DriverConfigParam Description="Default Security Setting Applicable only for legacy webserver  choose from None, Ssl3, Tls, Tls11, Tls12" Guid="0fbd904d-7598-4c26-88b0-6fa376bcc2e4" Parameter="SecurityType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="None" />
+<DriverConfigParam Description="The amount of maximum time (in seconds) to wait for the driver to load/connect" Guid="5a6eeae3-13d8-4b55-965f-a9efee23e9ff" Parameter="DriverLoadWaitingTime" ParentGuid="00000000-0000-0000-0000-000000000000" Value="30" />
+</DriverConfiguration>
+</Agent></GingerRepositoryItem>

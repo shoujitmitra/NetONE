@@ -1,0 +1,7 @@
+POST http://10.53.213.68:9091/tip/v1/Topology/configureTopology/ HTTP/1.0
+Accept: application/json
+Accept-Encoding: gzip, deflate, br
+Content-Type: multipart/form-data; charset=utf-8
+Content-Length: 0
+Host: 10.53.213.68:9091
+

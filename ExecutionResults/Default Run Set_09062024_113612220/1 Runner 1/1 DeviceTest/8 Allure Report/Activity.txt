@@ -1,0 +1,1 @@
+{"Seq":8,"GUID":"a0f88254-1dd9-45b0-960c-6fa44567ff50","ActivityName":"Allure Report","Description":"Allure Report","RunDescription":"","StartTimeStamp":"2024-09-06T15:40:57.7794212Z","EndTimeStamp":"2024-09-06T15:40:57.9487578Z","Elapsed":168,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

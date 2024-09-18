@@ -1,0 +1,1 @@
+{"Seq":4,"GUID":"7ddca471-6850-4513-b86e-2da7dd07ad10","ActivityName":"DT-1.yaml","Description":"DT-1.yaml","RunDescription":"DT-1.yaml","StartTimeStamp":"2024-09-05T22:00:06.2889479Z","EndTimeStamp":"2024-09-05T22:01:39.3216318Z","Elapsed":93024,"RunStatus":"Failed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

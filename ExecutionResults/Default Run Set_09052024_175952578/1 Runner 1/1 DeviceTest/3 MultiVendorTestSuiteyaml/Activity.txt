@@ -1,0 +1,1 @@
+{"Seq":3,"GUID":"7c75238d-7b51-47d4-ae42-34c58c02d950","ActivityName":"MultiVendorTestSuite.yaml","Description":"MultiVendorTestSuite.yaml","RunDescription":"MultiVendorTestSuite.yaml","StartTimeStamp":"2024-09-05T21:59:53.447021Z","EndTimeStamp":"2024-09-05T22:00:06.2258609Z","Elapsed":12778,"RunStatus":"Passed","VariablesBeforeExec":[],"VariablesAfterExec":[]}

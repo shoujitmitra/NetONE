@@ -1,0 +1,14 @@
+HTTP/1.1 Not Found
+Server: nginx/1.18.0 (Ubuntu)
+Date: Fri, 06 Sep 2024 15:12:49 GMT
+Connection: close
+Content-Type: text/html
+Content-Length: 162
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.18.0 (Ubuntu)</center>
+</body>
+</html>

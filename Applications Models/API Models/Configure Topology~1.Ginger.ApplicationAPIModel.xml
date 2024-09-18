@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="80af3075-38f5-49cd-a56e-a465762032a5" ItemType="ApplicationAPIModel" CreatedBy="SHOUJITM" Created="202409041252" GingerVersion="24.4.1.0" Version="5" LastUpdateBy="SHOUJITM" LastUpdate="202409051226" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="FormData" CookieMode="Session" EndpointURL="{NetONE AUTOMATION PLATFORM_Copy5}/Topology/configureTopology/" Guid="80af3075-38f5-49cd-a56e-a465762032a5" Name="Configure Topology" NetworkCredentials="Default" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b1f57cbb-de66-4289-a3bc-476ad799f184" URLDomain="/tip/v1">
+<APIModelBodyKeyValueHeaders>
+<APIModelBodyKeyValue Guid="46898c5a-46cb-4585-898a-44748ed819bd" Param="topology_configuration_zip_file" Value="{TOPOLOGY_CONFIGURATION_ZIP_FILE}" ValueType="File" />
+</APIModelBodyKeyValueHeaders>
+
+<AppModelParameters>
+<AppModelParameter Guid="858207ff-669d-4de9-9de5-50e6e376b6f3" PlaceHolder="{TOPOLOGY_CONFIGURATION_ZIP_FILE}" />
+</AppModelParameters>
+
+<GlobalAppModelParameters>
+<GlobalAppModelParameter Guid="879192e8-df15-4290-9eaa-889e643f9691" PlaceHolder="{NetONE AUTOMATION PLATFORM_Copy5}">
+<OptionalValuesList>
+<OptionalValue Guid="ef93e206-2511-41ed-b21b-653674486ccf" IsDefault="True" Value="http://10.53.213.68:9091/tip/v1" />
+</OptionalValuesList>
+</GlobalAppModelParameter>
+</GlobalAppModelParameters>
+
+<HttpHeaders>
+<APIModelKeyValue Guid="b1a87b38-4016-475d-bd53-83dfe79b44d0" Param="accept" Value="application/json" />
+<APIModelKeyValue Guid="7f457c17-01f4-49c2-a57e-c0739a5a3bf5" Param="Content-Type" Value="multipart/form-data" />
+<APIModelKeyValue Guid="041dc44a-51dc-4dde-9de2-395d4c568b8f" Param="Accept-Encoding" Value="gzip, deflate, br" />
+<APIModelKeyValue Guid="9d89aa26-ad44-466e-b679-a36eccc3bf00" />
+</HttpHeaders>
+</ApplicationAPIModel></GingerRepositoryItem>

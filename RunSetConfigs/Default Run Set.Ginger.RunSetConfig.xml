@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="4cbe90f0-0d48-41db-862a-4668eb36f717" ItemType="RunSetConfig" CreatedBy="SHOUJITM" Created="202408271403" GingerVersion="24.4.1.0" Version="4" LastUpdateBy="SHOUJITM" LastUpdate="202409052159" />
+<RunSetConfig Guid="4cbe90f0-0d48-41db-862a-4668eb36f717" Name="Default Run Set" RunModeParallel="False" SealightsTestRecommendations="No">
+<CategoriesDefinitions>
+<SolutionCategoryDefinition Category="Product" Guid="120992cb-19e9-4df0-8f1e-0fb3748ddbc6" />
+<SolutionCategoryDefinition Category="TestType" Guid="cd8453d5-a46c-4c64-8b56-16b2befd34c3" />
+<SolutionCategoryDefinition Category="Release" Guid="346c24c4-b930-40fe-8c44-c19c4112a386" />
+<SolutionCategoryDefinition Category="Iteration" Guid="f2fa5741-ce90-464d-9fc3-a27ef249c245" />
+<SolutionCategoryDefinition Category="BusinessProcessTag" Guid="f0d1ad08-3447-4808-9eda-c42034113593" />
+<SolutionCategoryDefinition Category="SubBusinessProcessTag" Guid="3d3422c4-cca6-4501-9a86-68fa726f9e1c" />
+<SolutionCategoryDefinition Category="UserCategory1" Guid="8983671c-e257-42bf-b4b0-888edf21a00e" />
+<SolutionCategoryDefinition Category="UserCategory2" Guid="93e99d84-6e4a-4a4a-a7a4-d6eb7628ed0a" />
+<SolutionCategoryDefinition Category="UserCategory3" Guid="ea339412-a6a9-4141-8e59-d907caec238f" />
+</CategoriesDefinitions>
+
+<GingerRunners>
+<GingerRunner Guid="52690376-bed9-4e06-8e34-7748020d050d" Name="Runner 1" RunOption="ContinueToRunall">
+<ApplicationAgents>
+<ApplicationAgent AgentID="5827d69c-1ef3-42b3-b5d7-34145ae50306" AgentName="NetONE" AppID="b1f57cbb-de66-4289-a3bc-476ad799f184" AppName="MyWebServicesApp" Guid="12e4e715-d4a5-4a2e-b29c-7f57a5fd9b14" />
+</ApplicationAgents>
+
+<BusinessFlowsRunList>
+<BusinessFlowRun BusinessFlowGuid="91b809e5-73e6-4c43-86b7-4068e19d68d2" BusinessFlowInstanceGuid="371b3d5c-d276-44c2-ae8f-21a9a504bf53" BusinessFlowIsActive="True" BusinessFlowName="DeviceTest" Guid="5d1d5bec-72a7-449b-bf0b-aedb03c85622" />
+</BusinessFlowsRunList>
+</GingerRunner>
+</GingerRunners>
+
+<SelfHealingConfiguration>
+<SelfHealingConfig EnableSelfHealing="True" Guid="96555c96-2a8f-43ad-9ace-98f544c779f5" ReprioritizePOMLocators="True" />
+</SelfHealingConfiguration>
+</RunSetConfig></GingerRepositoryItem>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="58b58f2e-77f5-4bd0-88da-2339a6d642f4" ItemType="ApplicationAPIModel" CreatedBy="SHOUJITM" Created="202408301330" GingerVersion="24.4.1.0" Version="33" LastUpdateBy="SHOUJITM" LastUpdate="202409061608" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="FormData" CookieMode="Session" Description="upload topology" EndpointURL="http://10.53.213.68:9091/tip/v1/Topology/configureTopology/" Guid="58b58f2e-77f5-4bd0-88da-2339a6d642f4" Name="Configure Topology1" NetworkCredentials="Default" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="POST" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b1f57cbb-de66-4289-a3bc-476ad799f184" URLDomain="/tip/v1">
+<APIModelBodyKeyValueHeaders>
+<APIModelBodyKeyValue Guid="3a3bb1a0-cc90-448d-af07-9a83ae8b6b61" Param="topology_configuration_zip_file" Value="C:\Users\SHOUJITM\Downloads\tip_topology.zip" ValueType="File" />
+</APIModelBodyKeyValueHeaders>
+
+<AppModelParameters>
+<AppModelParameter Guid="8c2a3d7a-7973-47de-b32c-0277d5bc2c29" PlaceHolder="TOPOLOGY_CONFIGURATION_ZIP_FILE">
+<OptionalValuesList>
+<OptionalValue Guid="810e93a2-40ea-4c25-879f-d2c4bf07d6c0" IsDefault="True" Value="topology_configuration_zip_file" />
+</OptionalValuesList>
+</AppModelParameter>
+<AppModelParameter Guid="09d640be-ea3b-48e3-8ec7-92bfe754e69a" Path="C:\Users\SHOUJITM\Downloads" PlaceHolder="tip_topology">
+<OptionalValuesList>
+<OptionalValue Guid="e9f267f0-a1dc-4b0b-8dd4-5c3b70f9689b" IsDefault="True" Value="tip_topology.zip" />
+</OptionalValuesList>
+</AppModelParameter>
+</AppModelParameters>
+
+<GlobalAppModelParameters>
+<GlobalAppModelParameter Guid="5924b394-145d-4813-bf29-9379c9a9e6fa" PlaceHolder="{NetONE AUTOMATION PLATFORM_Copy2}">
+<OptionalValuesList>
+<OptionalValue Guid="c86e879e-16b9-47d1-b754-5150bc135f95" IsDefault="True" Value="/tip/v1" />
+</OptionalValuesList>
+</GlobalAppModelParameter>
+</GlobalAppModelParameters>
+
+<HttpHeaders>
+<APIModelKeyValue Guid="3292a9b5-155f-463d-b744-91c1cabb3307" Param="accept" Value="*/*" />
+<APIModelKeyValue Guid="72095b02-2a8a-460e-bf3d-121ec48979fb" Param="Content-Type" Value="multipart/form-data" />
+</HttpHeaders>
+</ApplicationAPIModel></GingerRepositoryItem>

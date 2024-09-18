@@ -1,0 +1,10 @@
+HTTP/1.1 UNKNOWN
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 05 Sep 2024 16:17:21 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 74
+
+{
+  "logs": "[\"Exception 'NoneType' object has no attribute 'filename'\"]"
+}

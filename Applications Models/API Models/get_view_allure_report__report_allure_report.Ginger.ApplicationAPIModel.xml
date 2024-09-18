@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6c9a59c9-09d8-4b1c-a941-4b7203f8146c" ItemType="ApplicationAPIModel" CreatedBy="SHOUJITM" Created="202409051413" GingerVersion="24.4.1.0" Version="13" LastUpdateBy="SHOUJITM" LastUpdate="202409061552" />
+<ApplicationAPIModel APIType="REST" AuthorizationType="NoAuthentication" CertificateType="AllSSL" ContentType="JSon" CookieMode="Session" Description="Generate Allure Report" EndpointURL="http://10.53.213.68:9091/tip/v1/Report/AllureReport/" Guid="6c9a59c9-09d8-4b1c-a941-4b7203f8146c" Name="Generate Allure Report" NetworkCredentials="Default" ReqHttpVersion="HTTPV10" RequestBodyType="FreeText" RequestType="GET" ResponseContentType="JSon" SecurityType="None" TargetApplicationKey="MyWebServicesApp~b1f57cbb-de66-4289-a3bc-476ad799f184" URLDomain="/tip/v1">
+<AppModelParameters>
+<AppModelParameter Guid="86b4ea0d-e6d9-4f80-b76c-9da3e523578a" PlaceHolder="{NetONE_host}">
+<OptionalValuesList>
+<OptionalValue Guid="c5a515f1-ff16-4fa2-a8e8-557dcaf1198c" IsDefault="True" Value="http://10.53.213.68:9091/tip/v1" />
+</OptionalValuesList>
+</AppModelParameter>
+</AppModelParameters>
+
+<GlobalAppModelParameters>
+<GlobalAppModelParameter Guid="77f7f7b0-d055-4370-bc1e-7f10f55b0670" PlaceHolder="{NetONE AUTOMATION PLATFORM_Copy6}">
+<OptionalValuesList>
+<OptionalValue Guid="9250efa7-90ab-46ae-b600-31d7328aab01" IsDefault="True" Value="/tip/v1" />
+</OptionalValuesList>
+</GlobalAppModelParameter>
+</GlobalAppModelParameters>
+
+<HttpHeaders>
+<APIModelKeyValue Guid="446fdb63-0330-4e25-84ce-c4c5270e25cf" Param="accept" Value="application/json" />
+</HttpHeaders>
+</ApplicationAPIModel></GingerRepositoryItem>

@@ -1,0 +1,4 @@
+GET http://10.53.213.68:9091/tip/v1/Report/AllureReport/ HTTP/1.0
+Accept: application/json, application/json
+Host: 10.53.213.68:9091
+

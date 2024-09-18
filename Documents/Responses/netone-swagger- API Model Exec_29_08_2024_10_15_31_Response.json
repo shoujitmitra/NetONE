@@ -1,0 +1,11 @@
+HTTP/1.1 UNKNOWN
+Server: nginx/1.18.0 (Ubuntu)
+Date: Thu, 29 Aug 2024 14:15:31 GMT
+Connection: close
+Content-Type: application/json
+Content-Length: 513
+
+{
+  "logs": "[\"INFO Exec_Id[b6db820d-9de5-45b9-a5ea-b92f058444cf] Generic Validation API Start\", \"it is coming here\", \"INFO Exec_Id[b6db820d-9de5-45b9-a5ea-b92f058444cf] downloaded testcases from git failed\", \"INFO Exec_Id[b6db820d-9de5-45b9-a5ea-b92f058444cf] DUT Nodes [[]]\", \"ERROR Exec_Id[b6db820d-9de5-45b9-a5ea-b92f058444cf] Topology Don't Support This Test Case\", \"ERROR Exec_Id[b6db820d-9de5-45b9-a5ea-b92f058444cf] Generic Validation API Failed\"]",
+  "id": "b6db820d-9de5-45b9-a5ea-b92f058444cf"
+}
