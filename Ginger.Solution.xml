@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="03f934ff-ec4b-4676-9930-f3a339d9dfbf" ItemType="Solution" CreatedBy="SHOUJITM" Created="202408252108" GingerVersion="24.4.1.0" Version="7" LastUpdateBy="SHOUJITM" LastUpdate="202409051609" />
+<GingerRepositoryItem><Header ItemGuid="03f934ff-ec4b-4676-9930-f3a339d9dfbf" ItemType="Solution" CreatedBy="SHOUJITM" Created="202408252108" GingerVersion="24.4.1.0" Version="8" LastUpdateBy="SHOUJITM" LastUpdate="202409182007" />
 <Solution EncryptedValidationString="bJCXJL1A2y0OOLRC4iekQA==" Guid="03f934ff-ec4b-4676-9930-f3a339d9dfbf" Name="NetONE">
 <ApplicationPlatforms>
 <ApplicationPlatform AppName="MyWebServicesApp" Guid="b1f57cbb-de66-4289-a3bc-476ad799f184" Platform="WebServices" />

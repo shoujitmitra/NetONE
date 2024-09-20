@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="8b43543f-fa62-40c2-99bd-6d7117dca461" ItemType="BusinessFlow" CreatedBy="SHOUJITM" Created="202409190058" GingerVersion="24.4.1.0" Version="1" LastUpdateBy="SHOUJITM" LastUpdate="202409190058" />
+<BusinessFlow Guid="8b43543f-fa62-40c2-99bd-6d7117dca461" Name="SaskTel Demo" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="bec041a2-ccad-426d-a0ee-ec8c32807cf4" PercentAutomated="0%" TargetApplication="MyWebServicesApp" Type="Regular" />
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="eb815ee6-ed10-4593-9bc4-2853c39c607a" Name="Group">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="bec041a2-ccad-426d-a0ee-ec8c32807cf4" ActivityName="Activity 1" Guid="de386947-5719-40fd-bd36-fc1299d3c276" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebServicesApp" Guid="4ca1cecd-4d47-4477-9aaf-580f77754cad" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>
